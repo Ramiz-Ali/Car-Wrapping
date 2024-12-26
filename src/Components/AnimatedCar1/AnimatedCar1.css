@@ -1,0 +1,80 @@
+.animated-car1{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    align-items: center;
+    background-color: #292929;
+    border-radius: 5px;
+}
+.red-back-car{
+    max-width: 500px;
+    height: 60vh;
+    border-radius: 5px;
+}
+.animated-car1-car{
+    position: absolute;
+    left: 100px;
+    max-width: 600px;
+    height: 320px;
+    animation: smallMove 2s ease-in-out infinite;
+}
+.animated-car1-text{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    margin-right: 80px;
+    margin-top: 50px;
+}
+.animated-car1-text p{
+    font-size: 17px;
+    line-height: 23px;
+}
+@media screen and (max-width:1230px) {
+    .animated-car1-text{
+        margin-right: 40px;
+        margin-top: 30px;
+    }
+    .animated-car1-car{
+        max-width: 500px;
+        height: 280px;
+    }
+    .red-back-car{
+        max-width: 400px;
+        height: 50vh;
+    }
+}
+@media screen and (max-width:1085px) {
+    .animated-car1-text{
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+    .animated-car1-car{
+        max-width: 400px;
+        height: 240px;
+    }
+}
+@media screen and (max-width:925px) {
+    .red-back-car{
+        display: none;
+    }
+    .animated-car1-car{
+        display: none;
+    }
+    .animated-car1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    .animated-car1-text{
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+}

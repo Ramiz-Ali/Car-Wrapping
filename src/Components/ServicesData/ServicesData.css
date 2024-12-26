@@ -1,0 +1,74 @@
+.servicesData-main{
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.servicesData-img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.servicesData-main h1{
+    color: #fff;
+    font-weight: 500;
+    font-size: 35px;
+}
+.services-cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.service-card1{
+    width: 350px;
+    height: 500px;
+    background-color: #212529;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 50px 20px 30px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+.service-card1-image{
+    width: 300px;
+    height: auto;
+}
+.service-card1-title{
+    font-size: 23px;
+    font-weight: 400;
+}
+.service-card1-description{
+    font-size: 18px;
+    line-height: 25px;
+}
+.services-work-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: auto;
+    gap: 120px;
+}
+.service-work-card1{
+    width: 230px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+}
+.service-work-card1-p1{
+    font-size: 20px;
+}
+.service-work-card1-p2{
+    text-align: center;
+    line-height: 23px;
+}

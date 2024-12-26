@@ -1,0 +1,27 @@
+.navbar2-main{
+    width: 85%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav2-featured-btn{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DC3545;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav2-featured-btn:hover{
+    background-color: #aa1f2d;
+}
+.featured-btn{
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: #fff;
+    font-size: large;
+}

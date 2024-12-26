@@ -1,0 +1,124 @@
+.aboutData-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    height: fit-content;
+    background-color: #292929;
+    flex-wrap: wrap;
+
+}
+
+.about-right{
+    width: 500px;
+    height: fit-content;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #fff;
+    padding: 0 10px 20px 10px;
+    
+}
+.about-right-text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+.about-right-text p{
+    font-size: 23px;
+    font-weight: bold;
+}
+.about-text-h1{
+    font-size: 37px;
+    font-weight: 500;
+    
+}
+.about-paragraph{
+    font-size: 19px;
+    line-height: 22px;
+}
+.about-buttons{
+    display: flex;
+    gap: 13px;
+    
+}
+.about-buttons-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 28px 8px 28px;
+    background-color: #9E0517;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: 500;
+}
+.about-buttons-2{
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 17px 8px 17px;
+    background-color: #fff;
+    color: #9E0517;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: 500;
+    
+}
+.about-line-div{
+    width: 95%;
+    height: 3px;
+    background-color: #fff;
+}
+.about-buttons-learn{
+    width: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 17px 8px 17px;
+    background-color: #fff;
+    color: #9E0517;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width:1337px) {
+    .about-car-main{
+        width: 100%;
+        height: auto;
+    }
+}
+@media screen and (max-width:460px) {
+    .about-right{
+        text-align: center;
+    }
+    .about-right-text{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-learn-btn-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

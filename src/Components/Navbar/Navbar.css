@@ -1,0 +1,167 @@
+.navbar-main {
+    width: 85%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.navbar-main ul {
+    display: flex;
+    gap: 35px;
+    color: #fff;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.navbar-main ul li {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.navbar-main ul li:hover {
+    color: #DC3545;
+}
+
+.search-btn {
+    background-color: #6C757D;
+    border-radius: 50px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+    padding: 0 15px 0 15px;
+}
+
+.search-btn input {
+    width: 90%;
+    height: 50px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 40px;
+    border: none;
+    background: none;
+    font-size: 17px;
+    outline: none;
+}
+
+.search-btn input::placeholder {
+    color: #fff;
+}
+
+.search-icon {
+    cursor: pointer;
+}
+
+/* .mobile-menu-ul {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    color: #fff;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.mobile-menu-ul li {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.mobile-menu-ul li:hover {
+    color: #DC3545;
+}
+
+.mobile-menu-ul-div {
+
+    display: none;
+} */
+
+.mobile-menu-ul-div {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: #333;
+    z-index: 10;
+    transition: top 0.7s ease-in-out;
+    
+  
+  }
+  
+  .mobile-menu-ul-div.show {
+    top: 78px; 
+  }  
+
+  .mobile-menu-ul {
+    list-style: none;
+    /* padding: 20px; */
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    align-items: start;
+  }
+  
+  .mobile-menu-ul li {
+    margin: 15px 0;
+    color: white;
+    font-size: 18px;
+  }
+  .mobile-menu-ul li:hover {
+    color: #DC3545;
+}
+ 
+  .link2 {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .search-btn {
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+  }
+  
+
+
+@media screen and (max-width:1100px) {
+    .navbar-main ul {
+        gap: 25px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .search-btn {
+        width: 200px;
+    }
+
+    .navbar-main ul {
+        gap: 20px;
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .navbar-main {
+        display: none;
+    }
+
+    .mobile-menu-ul-div {
+        width: 100%;
+        background-color: #292929;
+        height: fit-content;
+        padding: 20px 0 20px 50px;
+        display: flex;
+        flex-direction: column;
+    }
+}
